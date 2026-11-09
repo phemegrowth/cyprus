@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thank you | Technotent, awnings and tents in Paralimni</title>
+  <meta name="description" content="Your enquiry has reached Technotent in Paralimni. We reply by phone or email.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:title" content="Thank you | Technotent">
+  <meta property="og:description" content="Your enquiry has reached Technotent in Paralimni.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/img/hero-awnings.jpg">
+  <meta name="theme-color" content="#F8F8FB">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script>document.documentElement.classList.remove('no-js');</script>
+  <style>
+    .thanks { min-height: min(calc(100svh - var(--header-h)), 820px); display: grid; grid-template-rows: auto 1fr; }
+    .thanks__media { position: relative; overflow: hidden; aspect-ratio: 16 / 7; }
+    .thanks__media img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 60%; }
+    .thanks__text { padding: var(--s7) var(--gutter) var(--s9); display: grid; gap: var(--s5); align-content: start; }
+    .thanks__text p { color: var(--muted); }
+    .header__right .btn { display: inline-flex; }
+    .thanks__next { display: grid; gap: var(--s3); border-top: 1px solid var(--rule); padding-top: var(--s5); }
+    .thanks__next li { display: grid; grid-template-columns: 2.5rem 1fr; gap: var(--s3); }
+    .thanks__next b { font-family: var(--font-display); font-weight: 400; color: var(--accent); }
+    @media (min-width: 900px) {
+      .thanks { grid-template-columns: minmax(0, 6fr) minmax(0, 6fr); grid-template-rows: none; }
+      .thanks__media { order: 2; aspect-ratio: auto; }
+      .thanks__text { padding: var(--s9) var(--s7) var(--s9) var(--gutter); max-width: 720px; justify-self: end; width: 100%; align-content: center; }
+    }
+  </style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header">
+  <div class="wrap header__in">
+    <a class="brand" href="./index.html" aria-label="Technotent, home">
+      <span class="brand__plate"><img class="brand__logo" src="./assets/logo.png" alt="Technotent C. G. Georgatsos" width="64" height="64"></span>
+      <span class="brand__text"><span class="brand__name">Technotent</span><span class="brand__sub">Paralimni, since 1977</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="./index.html#services">What we make</a>
+      <a href="./index.html#work">Work</a>
+      <a href="./index.html#brands">Brands</a>
+      <a href="./index.html#about">About</a>
+      <a href="./index.html#contact">Contact</a>
+    </nav>
+    <div class="header__right">
+      <div class="lang" aria-label="Language">
+        <a href="#main" aria-current="true" lang="en">EN</a>
+        <span aria-hidden="true">/</span>
+        <a href="#main" aria-disabled="true" lang="el" title="Greek version coming">EL</a>
+      </div>
+      <a class="btn btn--sm" href="./index.html">Back to the home page</a>
+    </div>
+  </div>
+</header>
+<main id="main">
+  <section class="thanks" aria-labelledby="thanks-title">
+    <div class="thanks__text">
+      <span class="label label--accent r">Enquiry sent</span>
+      <h1 class="h2 r" id="thanks-title">Thank you. We have your message.</h1>
+      <p class="lead r">Someone from Technotent will reply by phone or email. If it is urgent, call the Paralimni showroom on <a class="u" href="tel:+35723822351">+357 23 822351</a>.</p>
+      <ol class="thanks__next r">
+        <li><b>01</b><span>We read the message and call or write back.</span></li>
+        <li><b>02</b><span>For awnings and fixed shade we arrange a visit to measure.</span></li>
+        <li><b>03</b><span>You receive a written quote with the options.</span></li>
+      </ol>
+      <div class="hero__cta r" style="opacity:1;transform:none">
+        <a class="btn btn--lift" href="./index.html">Back to the home page</a>
+        <a class="btn btn--ghost btn--lift" href="./index.html#work">See the work</a>
+      </div>
+    </div>
+    <div class="thanks__media">
+      <img src="./assets/img/hero-awnings.jpg" alt="White canvas awnings along a villa path" width="1326" height="2000">
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="wrap footer__bottom" style="margin-top:0;border-top:0">
+    <span>&copy; <span data-year>2026</span> Technotent C.G. Georgatsos Ltd, Paralimni</span>
+    <span class="footer__links"><a href="#">Privacy</a><a href="#">Cookies</a><a href="https://phemegrowth.com" rel="noopener">Website by Pheme Growth</a></span>
+  </div>
+</footer>
+<script src="./app.js" defer></script>
+</body>
+</html>
